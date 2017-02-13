@@ -88,8 +88,14 @@ then a separate x-parallel split for each side of y-parallel split
 ## controlling entropy
 control how a DT decides where to split the data  
 
-entropy = ∑ -(P[i] \* log2(P[i]))
+    entropy = ∑ -( (P[i]) * log2(P[i]))
+or
+    for val in set
+        entropy += val * log2(val) * (-1)
 
+#### intuition
+- all examples are same class: entropy = 0
+- all examples are a diff class: entropy = 1
 
 
 
