@@ -154,7 +154,24 @@ low-d space    --->    high-d space
 - reapply the solution in the non-separable space  
 - you now have a non-linear separation  
 
+## Using with sklearn
+- several SVMs available
+- sklearn.svm.SVC is the 'support vector classifier'
+    - kernel: what type of divider will we use
+        - linear        : straight line
+        - poly          : 
+        - rbf (default) : custom squiggly lines
+        - sigmoid
+        - precomputed
+    - C: controls tradeoff between smooth decision boundary & classifying training points correctly 
+        - helps with balancing between custom fitting and generalizing, to avoid overfitting
+        - larger C gives a more custom curve
+    - gamma: how squiggly can the line get?
+        - 1.0 might give you a very straight line while 1000 can be very curvy
 
+## strategy: avoid overfitting
+    - play with parameters C, gamma, kernel
+    - use tools to automatically detect overfitting
 
 
 
