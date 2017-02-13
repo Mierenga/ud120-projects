@@ -15,7 +15,7 @@
 - margin: maximizes distance to nearest point
 - robustness: maximized by having an even margin
 
-## want to maximize the margin without misclassifying any data points:
+## strategy: maximize the margin without misclassifying any data points:
     -------------------------       
               \ 
         x   x  \  o  o
@@ -112,8 +112,10 @@ add feature z = |x|, where x is the distance from the y axis
 
 ## kernel trick
 
-hyper calc
-low-d space    --->    high-d space
+going to hyperspace and back   
+training space --->  hyperspace
+i.e.,  
+low-d space    --->  high-d space
 
     {                          kernels
         non-separable           --->    separable
@@ -133,7 +135,7 @@ low-d space    --->    high-d space
 - sklearn.svm.SVC is the 'support vector classifier'
     - kernel: what type of divider will we use
         - linear        : straight line
-        - poly          : 
+        - poly
         - rbf (default) : custom squiggly lines
         - sigmoid
         - precomputed
@@ -147,6 +149,11 @@ low-d space    --->    high-d space
 - play with parameters C, gamma, kernel
 - use tools to automatically detect overfitting
   
+## controlling entropy
+control how a DT decides where to split the data  
+
+entropy = ∑ -(P[i] \* log2(P[i]))
+
   
   
 ---  
