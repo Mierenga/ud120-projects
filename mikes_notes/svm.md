@@ -149,11 +149,6 @@ low-d space    --->  high-d space
 - play with parameters C, gamma, kernel
 - use tools to automatically detect overfitting
   
-## controlling entropy
-control how a DT decides where to split the data  
-
-entropy = ∑ -(P[i] \* log2(P[i]))
-
   
   
 ---  

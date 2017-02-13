@@ -85,6 +85,11 @@ then a separate x-parallel split for each side of y-parallel split
         - default=2
         - make it larger to avoid overfitting
 
+## controlling entropy
+control how a DT decides where to split the data  
+
+entropy = ∑ -(P[i] \* log2(P[i]))
+
 
 
 
