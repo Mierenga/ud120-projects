@@ -1,30 +1,4 @@
 ###
-# naive bayes
-###
-
-- map features to a label
-
-## terms
-- sensitivity: P(Pos|C)
-- specitivity: P(Pos|¬C)
-
-Example for the probablity of having cancer
-given a test with known sensitivity and specitivity:
-
-                P(C)                                
-         /-------+-------\
-         |               |
-      P(Pos|C)   +   P(Pos|¬C)  ==  P(Pos)          # relative probablities
-         |               |
-      ÷ P(Pos)        ÷ P(Pos)                      # normalization
-         |               |
-         V               V
-      P(C|Pos)   +  P(¬C|Pos)  ==  1                # add up to 1
-
-
-- called naive because order is not accounted
-
-###
 # support vector machines
 ###
 
@@ -170,8 +144,8 @@ low-d space    --->    high-d space
         - 1.0 might give you a very straight line while 1000 can be very curvy
 
 ## strategy: avoid overfitting
-    - play with parameters C, gamma, kernel
-    - use tools to automatically detect overfitting
+- play with parameters C, gamma, kernel
+- use tools to automatically detect overfitting
 
 
 
