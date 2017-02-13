@@ -116,6 +116,6 @@ or
 ---  
 [back: svm](svm.md)   
 [up](toc.md)   
-[next: trees](decision_trees.md)
+[next: cyoa](cyoa.md)
 ---  
 
