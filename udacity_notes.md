@@ -135,8 +135,22 @@ let's try adding feature z = |x|, where x is the distance from the y axis
               / |
     -------------------------
 
+## kernel trick
 
+low-d space    --->    high-d space
 
+    {                          kernels
+        non-separable           --->    separable
+        non-linear separation   <---    solution
+    }
+    {
+        x1 y                    --->    x1 x2 x3 x4 x5
+        non-linear separation   <---    solution
+    }
+
+- find a solution in the much larger separable set  
+- reapply the solution in the non-separable space  
+- you now have a non-linear separation  
 
 
 
