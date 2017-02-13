@@ -2,7 +2,7 @@
 # choose your own algorithm
 ###
 
-## algorithm choices:
+#### algorithm choices:
 - k nearest neighbors
     - classic, simple, easy to understand
 - random forest
@@ -10,11 +10,11 @@
 - adaboost (aka boosted decision tree)j
     - "ensemble methods"
 
-## ensemble methods
+#### ensemble methods
 meta classifiers built from (usually) decision trees
 many opinions, one final answer
 
-## process
+### process
 1. do some research, get a general understanding
 2. find sklearn docs
 3. deploy it
