@@ -76,14 +76,14 @@ given a test with known sensitivity and specitivity:
                 |
     -------------------------
 
-##### we need another input into the SVM
+##### we need another input (feature) into the SVM
                      +-----+
                 x -->|     |
                 y -->| SVM |--> label
     z = x^2 + y^2 -->|     |
                      +-----+
 
-##### plot of z axis (x^2 + y^2)
+##### plot of z axis (x^2 + y^2) 
     -------------------------
                 z
                 |
@@ -95,6 +95,7 @@ given a test with known sensitivity and specitivity:
                 |
                 |
     -------------------------
+the derived feature separates the data linearly so the SVM can work
 
 ## strategy: add a derived feature that can divide the data linearly
     -------------------------
@@ -109,7 +110,7 @@ given a test with known sensitivity and specitivity:
                 |
     -------------------------
 how can we make the divider linear?  
-let's try adding feature z = |x|, where x is the distance from the y axis   
+add feature z = |x|, where x is the distance from the y axis   
 
     -------------------------
                 z
@@ -137,6 +138,7 @@ let's try adding feature z = |x|, where x is the distance from the y axis
 
 ## kernel trick
 
+hyper calc
 low-d space    --->    high-d space
 
     {                          kernels
