@@ -25,4 +25,5 @@ given a test with known sensitivity and specitivity:
 - called naive because order is not accounted
 
 
-  [up](toc.md)    [next: svm](svm.md)
+[up](toc.md)    
+[next: svm](svm.md)

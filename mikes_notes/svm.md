@@ -149,7 +149,8 @@ low-d space    --->    high-d space
   
   
   
-  [up](toc.md)    [next]()
+[up](toc.md)   
+[next: decision trees](decision_trees.md)
 
 
 
