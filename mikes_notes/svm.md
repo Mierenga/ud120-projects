@@ -149,8 +149,10 @@ low-d space    --->    high-d space
   
   
   
+---  
 [back: naive bayes](naive_bayes.md)  
 [up](toc.md)   
 [next: decision trees](decision_trees.md)
+---  
 
 

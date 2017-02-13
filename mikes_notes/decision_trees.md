@@ -31,7 +31,8 @@
                        x               o
 
 ## terms:
-- axis-parallel decision lines
+- axis-parallel decision lines : re-read the term
+- entropy : measure of impurity in a bunch of examples
 
 
 ## strategy: break up graph into axis-parallel decision lines
@@ -74,21 +75,23 @@ then a separate x-parallel split for each side of y-parallel split
         +---------------> x #            |   |       |   | 
         0  1  2  3  4  5    #            x   o       x   o 
                                         
-## decision trees with sklearn [docs](http://scikit-learn.org/stable/modules/tree.html)
+## decision trees with sklearn ([docs](http://scikit-learn.org/stable/modules/tree.html))
 
 - from sklearn import tree
 - tree.DecisionTreeClassifier()
 - tuning parameters for DecisionTreeClassifier
-    - 
+    - min_samples_split: if I have less samples than this in my node, I cannot split again, and I become a leaf
+        - aka, when do I have to become a leaf?
+        - default=2
+        - make it larger to avoid overfitting
 
 
 
 
 
-
-
-
+---  
 [back: svm](svm.md)   
 [up](toc.md)   
 [next: trees](decision_trees.md)
+---  
 
