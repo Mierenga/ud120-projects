@@ -128,7 +128,7 @@ low-d space    --->    high-d space
 - reapply the solution in the non-separable space  
 - you now have a non-linear separation  
 
-## Using with sklearn ([docs](http://scikit-learn.org/stable/modules/svm.html#svm))
+## SVMs with sklearn ([docs](http://scikit-learn.org/stable/modules/svm.html#svm))
 - several SVMs available
 - sklearn.svm.SVC is the 'support vector classifier'
     - kernel: what type of divider will we use
@@ -149,21 +149,8 @@ low-d space    --->    high-d space
   
   
   
+[back: naive bayes](naive_bayes.md)
 [up](toc.md)   
 [next: decision trees](decision_trees.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
