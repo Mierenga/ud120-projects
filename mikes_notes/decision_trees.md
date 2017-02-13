@@ -93,7 +93,7 @@ or
 - decision tree algorithm maximizes the information gain
 - analyze each potential split based on training features and choose the one with the most information gain
 
-## bias-variance dilemma ([video](https://classroom.udacity.com/courses/ud120/lessons/2258728540/concepts/24402485560923)
+## bias-variance dilemma ([video](https://classroom.udacity.com/courses/ud120/lessons/2258728540/concepts/24402485560923))
 - too much bias -> unable to adapt
 - too much variance -> unstable
 #### find the right tradeoff
