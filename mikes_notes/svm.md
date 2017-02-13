@@ -128,7 +128,7 @@ low-d space    --->    high-d space
 - reapply the solution in the non-separable space  
 - you now have a non-linear separation  
 
-## Using with sklearn
+## Using with sklearn ([http://scikit-learn.org/stable/modules/svm.html#svm](docs))
 - several SVMs available
 - sklearn.svm.SVC is the 'support vector classifier'
     - kernel: what type of divider will we use
