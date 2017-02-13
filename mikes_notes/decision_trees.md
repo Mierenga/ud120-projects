@@ -86,7 +86,7 @@ then a separate x-parallel split for each side of y-parallel split
 
 
 
-[back: svm](svm.md)
+[back: svm](svm.md)   
 [up](toc.md)   
 [next: trees](decision_trees.md)
 
