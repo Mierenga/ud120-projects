@@ -108,8 +108,8 @@ given a test with known sensitivity and specitivity:
            o    |o
                 |
     -------------------------
-how can we make the divider linear?
-let's try adding feature z = |x|, where x is the distance from the y axis
+how can we make the divider linear?  
+let's try adding feature z = |x|, where x is the distance from the y axis   
     -------------------------
                 z
                 |         o
