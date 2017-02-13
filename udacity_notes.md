@@ -28,14 +28,14 @@ given a test with known sensitivity and specitivity:
 # support vector machines
 ###
 
-## maximize the distance of the dividing line between the two classes
-`-------------------------`      
-`             |           `
-`    x   x    |   o  o    `
-`     x x x   |   o   oo  `
-`   x   x     |    o  o   `
-`             |           `
-`-------------------------`
+### maximize the distance of the dividing line between the two classes
+    -------------------------
+                 |           
+        x   x    |   o  o    
+         x x x   |   o   oo  
+       x   x     |    o  o   
+                 |           
+    -------------------------
 
 ## terms
 - margin: maximizes distance to nearest point
@@ -50,7 +50,7 @@ given a test with known sensitivity and specitivity:
              x\
 -------------------------       
 
-## what about outliers?
+### what about outliers?
 -------------------------       
           \                 # do the best we can with the margin by ignoring the outlier
     x   x  \  o  o          # note the outlier
@@ -62,7 +62,7 @@ given a test with known sensitivity and specitivity:
   outlier
 
 
-## what if no line will make sense?
+### what if no line will make sense?
 -------------------------
             y
             |
