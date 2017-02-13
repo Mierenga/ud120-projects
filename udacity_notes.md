@@ -29,13 +29,13 @@ given a test with known sensitivity and specitivity:
 ###
 
 ## maximize the distance of the dividing line between the two classes
-`-------------------------       
-             |
-    x   x    |   o  o
-     x x x   |   o   oo
-   x   x     |    o  o 
-             |
--------------------------`
+`-------------------------`      
+`             |           `
+`    x   x    |   o  o    `
+`     x x x   |   o   oo  `
+`   x   x     |    o  o   `
+`             |           `
+`-------------------------`
 
 ## terms
 - margin: maximizes distance to nearest point
