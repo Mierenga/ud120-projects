@@ -47,7 +47,7 @@
         0  1  2  3  4  5
 
 let's do a vertical (y-parallel) split  
-
+  
         y
         ^                   #                 +-----+
        6| o o o o|o o o o   # now we can ask  | x<3 | ?
@@ -60,7 +60,7 @@ let's do a vertical (y-parallel) split
         0  1  2  3  4  5    #      
 
 then a separate x-parallel split for each side of y-parallel split  
-
+  
         y
         ^                   #                 +-----+
        6| o o o o|o o o o   # now we can ask  | x<3 | 
