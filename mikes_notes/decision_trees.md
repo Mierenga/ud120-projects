@@ -74,7 +74,16 @@ then a separate x-parallel split for each side of y-parallel split
        1| x x x x|x x x x   #            y   n       y   n
         +---------------> x #            |   |       |   | 
         0  1  2  3  4  5    #            x   o       x   o 
-                                        
+
+## information gain ([video](https://classroom.udacity.com/courses/ud120/lessons/2258728540/concepts/24325985460923#))
+- *entropy(parent)* minus the weighted average of all *entropy(children)*
+- decision tree algorithm maximizes the information gain
+
+## bias-variance dilemma ([video](https://classroom.udacity.com/courses/ud120/lessons/2258728540/concepts/24402485560923)
+- too much bias -> unable to adapt
+- too much variance -> unstable
+#### find the right tradeoff
+
 ## decision trees with sklearn ([docs](http://scikit-learn.org/stable/modules/tree.html))
 
 - from sklearn import tree
@@ -84,19 +93,19 @@ then a separate x-parallel split for each side of y-parallel split
         - aka, when do I have to become a leaf?
         - default=2
         - make it larger to avoid overfitting
+    - criterion: 'gini', 'entropy'
 
 ## controlling entropy
 control how a DT decides where to split the data  
 
-    entropy = ∑ -( (P[i]) * log2(P[i]))
+    entropy = ∑ -((P[i]) * log2(P[i]))
 or   
-    for val in set
-        entropy += val * log2(val) * (-1)
 
+    for class in set
+        entropy += class * log2(class) * (-1)
 
-#### intuition
-- all examples are same class: entropy = 0
-- all examples are a diff class: entropy = 1
+- if all examples are same class: entropy = 0
+- if all examples are a diff class: entropy = 1
 
 
 
