@@ -116,7 +116,7 @@ let's try adding feature z = |x|, where x is the distance from the y axis
                 |         o
                 |xxxx   o oo      # now the data is divided into two areas
                 |x xx  oo oo     
-              xx| xxx o o        
+                | xxx o o        
     ------------+------------x
                 |  oo
                 |o   o
@@ -128,7 +128,7 @@ let's try adding feature z = |x|, where x is the distance from the y axis
                 |       / o
                 |xxxx  /o oo      # we can draw a straight line between them 
                 |x xx /oo oo     
-              xx| xxx/o o        
+                | xxx/o o        
     ------------+--/---------x
                 |/ oo
                /|o   o
